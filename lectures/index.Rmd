@@ -1,0 +1,43 @@
+---
+title: 'Genetic Data Analysis  <img src="./gda.png" align="right" height="50" />'
+author: "David Gerard"
+date: "`r Sys.Date()`"
+output: html_document
+bibliography: "./gda_bib.bib"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Synopsis
+
+This website contains a series of lectures on genetic data analysis, taught by [David Gerard](https://dcgerard.github.io/), at his research group meetings during the 2021--2022 academic year.
+
+Topics include
+
+- The first three chapters from @weir1996genetic, covering frequency estimation, Hardy-Weinberg testing, and LD estimation and testing from a statistical point of view.
+
+- Chapters 1, 2, and 5 from @gillespie2004population, covering Hardy-Weinberg, genetic drift, and non-random mating.
+
+- An introduction to the EM algorithm, with its application that of @li2011statistical.
+
+- A discussion of @li2003modeling.
+
+I am placing these lecture notes under a CC BY-NC 4.0 licence, so you can use them as long as you provide attribution.
+
+## Lectures
+
+- *Genetic Data Analysis II* Lectures:
+
+- The EM algorithm of @li2011statistical:
+
+- *Population Genetics, A Concise Guide* Lectures:
+
+- @li2003modeling:
+
+## Acknowledgments
+
+This material is based upon work supported by the National Science Foundation under Grant No. [2132247](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2132247). The opinions, findings, and conclusions or recommendations expressed are those of the author and do not necessarily reflect the views of the National Science Foundation.
+
+## References
