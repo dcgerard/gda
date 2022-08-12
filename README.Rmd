@@ -19,15 +19,19 @@ knitr::opts_chunk$set(
 [![NSF-2132247](https://img.shields.io/badge/NSF-2132247-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=2132247)
 [![CC BY-NC 4.0](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/)
 
+Website URL: <https://dcgerard.github.io/gda/>
+
 This website contains a series of lectures on genetic data analysis, taught by [David Gerard](https://dcgerard.github.io/), at his research group meetings during the 2021--2022 academic year.
 
 Topics include
 
 - The first three chapters from @weir1996genetic, covering frequency estimation, Hardy-Weinberg testing, and LD estimation and testing from a statistical point of view.
 
-- Chapters 1, 2, and 5 from @gillespie2004population, covering Hardy-Weinberg, genetic drift, and non-random mating.
+- Chapters 1, 2, and 5 from @gillespie2004population, covering Hardy-Weinberg, genetic drift, mutation, and non-random mating.
 
-- An introduction to the EM algorithm, with its application that of @li2011statistical.
+- An introduction to the EM algorithm, with an application from @li2011statistical.
+
+- An introduction to Bayesian inference.
 
 - A discussion of @li2003modeling.
 

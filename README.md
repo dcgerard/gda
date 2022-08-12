@@ -7,6 +7,8 @@
 [![CC BY-NC
 4.0](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/)
 
+Website URL: <https://dcgerard.github.io/gda/>
+
 This website contains a series of lectures on genetic data analysis,
 taught by [David Gerard](https://dcgerard.github.io/), at his research
 group meetings during the 2021–2022 academic year.
@@ -18,10 +20,12 @@ Topics include
     from a statistical point of view.
 
 -   Chapters 1, 2, and 5 from Gillespie (2004), covering Hardy-Weinberg,
-    genetic drift, and non-random mating.
+    genetic drift, mutation, and non-random mating.
 
--   An introduction to the EM algorithm, with its application that of H.
-    Li (2011).
+-   An introduction to the EM algorithm, with an application from H. Li
+    (2011).
+
+-   An introduction to Bayesian inference.
 
 -   A discussion of N. Li and Stephens (2003).
 

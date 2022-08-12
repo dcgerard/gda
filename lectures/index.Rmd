@@ -18,9 +18,11 @@ Topics include
 
 - The first three chapters from @weir1996genetic, covering frequency estimation, Hardy-Weinberg testing, and LD estimation and testing from a statistical point of view.
 
-- Chapters 1, 2, and 5 from @gillespie2004population, covering Hardy-Weinberg, genetic drift, and non-random mating.
+- Chapters 1, 2, and 5 from @gillespie2004population, covering Hardy-Weinberg, genetic drift, mutation, and non-random mating.
 
-- An introduction to the EM algorithm, with its application that of @li2011statistical.
+- An introduction to the EM algorithm, with an application from @li2011statistical.
+
+- An introduction to Bayesian inference.
 
 - A discussion of @li2003modeling.
 
@@ -29,12 +31,52 @@ I am placing these lecture notes under a CC BY-NC 4.0 licence, so you can use th
 ## Lectures
 
 - *Genetic Data Analysis II* Lectures:
-
-- The EM algorithm of @li2011statistical:
-
-- *Population Genetics, A Concise Guide* Lectures:
-
-- @li2003modeling:
+    - [Chapter 1](./gda/gda1.pdf)
+        - Genetic data.
+        - Statistical/genetic sampling.
+        - Chi-squared test.
+    - [Chapter 2](./gda/gda2.pdf)
+        - Multinomial distribution.
+        - Delta method.
+        - Maximum likelihood estimation.
+    - [Chapter 3, Part 1](./gda/gda3a.pdf)
+        - Hardy-Weinberg equilibrium.
+    - [Chapter 3, Part 1](./gda/gda3b.pdf)
+        - Linkage disequilibrium.
+- The EM algorithm
+    - [General EM Algorithm](./em/em.pdf)
+        - Required Reading: Chapter 9 from @bishop2006pattern.
+    - [EM of @li2011statistical](./em/li2011.pdf)
+        - Required Reading: @li2011statistical.
+    - [Example implementation of EM algorithm](./em/em_example.pdf)
+- [Basic Bayes](./bayes/bayes.pdf)
+- *Population Genetics: A Concise Guide* Lectures:
+    - [Chapter 1](./gil/gil1.pdf)
+        - Alleles.
+        - Hardy-Weinberg.
+    - [Chapter 2, Part 1](./gil/gil2a.pdf)
+        - Sections 2.1 and 2.2.
+        - Genetic drift.
+        - Decay of heterozygosity.
+    - [Chapter 2, Part 2](./gil/gil2b.pdf)
+        - Section 2.3.
+        - Mutation and drift.
+    - [Chapter 2, Part 3](./gil/gil2c.pdf)
+        - Section 2.4.
+        - Molecular evolution.
+    - [Chapter 2, Part 4](./gil/gil2d.pdf)
+        - Section 2.5.
+        - The neutral theory.
+    - [Chapter 2, Part 5](./gil/gil2e.pdf)
+        - Section 2.6.
+        - The coalescent.
+    - [Chapter 2, Part 6](./gil/gil2f.pdf)
+        - Sections 2.7 and 2.8.
+        - Effective population size and generalizability of Wright-Fisher.
+    - [Chapter 5](./gil/gil5.pdf)
+        - Sections 5.1, 5.2, and 5.5.
+        - Inbreeding and subdivision.
+- [@li2003modeling](./li_stephens_2003/li_stephens_2003.pdf)
 
 ## Acknowledgments
 

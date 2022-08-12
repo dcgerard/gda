@@ -36,7 +36,7 @@
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
-<link rel="shortcut icon" href="https://dcgerard.github.io/gda/gda.png" />
+<link rel="shortcut icon" href="https://dcgerard.github.io/gda/gda_favicon.png" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -311,10 +311,11 @@ research group meetings during the 2021–2022 academic year.</p>
 (1996)</span>, covering frequency estimation, Hardy-Weinberg testing,
 and LD estimation and testing from a statistical point of view.</p></li>
 <li><p>Chapters 1, 2, and 5 from <span class="citation">Gillespie
-(2004)</span>, covering Hardy-Weinberg, genetic drift, and non-random
-mating.</p></li>
-<li><p>An introduction to the EM algorithm, with its application that of
+(2004)</span>, covering Hardy-Weinberg, genetic drift, mutation, and
+non-random mating.</p></li>
+<li><p>An introduction to the EM algorithm, with an application from
 <span class="citation">H. Li (2011)</span>.</p></li>
+<li><p>An introduction to Bayesian inference.</p></li>
 <li><p>A discussion of <span class="citation">N. Li and Stephens
 (2003)</span>.</p></li>
 </ul>
@@ -324,11 +325,92 @@ can use them as long as you provide attribution.</p>
 <div id="lectures" class="section level2">
 <h2>Lectures</h2>
 <ul>
-<li><p><em>Genetic Data Analysis II</em> Lectures:</p></li>
-<li><p>The EM algorithm of <span class="citation">H. Li
-(2011)</span>:</p></li>
-<li><p><em>Population Genetics, A Concise Guide</em> Lectures:</p></li>
-<li><p><span class="citation">N. Li and Stephens (2003)</span>:</p></li>
+<li><em>Genetic Data Analysis II</em> Lectures:
+<ul>
+<li><a href="./gda/gda1.pdf">Chapter 1</a>
+<ul>
+<li>Genetic data.</li>
+<li>Statistical/genetic sampling.</li>
+<li>Chi-squared test.</li>
+</ul></li>
+<li><a href="./gda/gda2.pdf">Chapter 2</a>
+<ul>
+<li>Multinomial distribution.</li>
+<li>Delta method.</li>
+<li>Maximum likelihood estimation.</li>
+</ul></li>
+<li><a href="./gda/gda3a.pdf">Chapter 3, Part 1</a>
+<ul>
+<li>Hardy-Weinberg equilibrium.</li>
+</ul></li>
+<li><a href="./gda/gda3b.pdf">Chapter 3, Part 1</a>
+<ul>
+<li>Linkage disequilibrium.</li>
+</ul></li>
+</ul></li>
+<li>The EM algorithm
+<ul>
+<li><a href="./em/em.pdf">General EM Algorithm</a>
+<ul>
+<li>Required Reading: Chapter 9 from <span class="citation">Bishop
+(2006)</span>.</li>
+</ul></li>
+<li><a href="./em/li2011.pdf">EM of <span class="citation">H. Li
+(2011)</span></a>
+<ul>
+<li>Required Reading: <span class="citation">H. Li (2011)</span>.</li>
+</ul></li>
+<li><a href="./em/em_example.pdf">Example implementation of EM
+algorithm</a></li>
+</ul></li>
+<li><a href="./bayes/bayes.pdf">Basic Bayes</a></li>
+<li><em>Population Genetics: A Concise Guide</em> Lectures:
+<ul>
+<li><a href="./gil/gil1.pdf">Chapter 1</a>
+<ul>
+<li>Alleles.</li>
+<li>Hardy-Weinberg.</li>
+</ul></li>
+<li><a href="./gil/gil2a.pdf">Chapter 2, Part 1</a>
+<ul>
+<li>Sections 2.1 and 2.2.</li>
+<li>Genetic drift.</li>
+<li>Decay of heterozygosity.</li>
+</ul></li>
+<li><a href="./gil/gil2b.pdf">Chapter 2, Part 2</a>
+<ul>
+<li>Section 2.3.</li>
+<li>Mutation and drift.</li>
+</ul></li>
+<li><a href="./gil/gil2c.pdf">Chapter 2, Part 3</a>
+<ul>
+<li>Section 2.4.</li>
+<li>Molecular evolution.</li>
+</ul></li>
+<li><a href="./gil/gil2d.pdf">Chapter 2, Part 4</a>
+<ul>
+<li>Section 2.5.</li>
+<li>The neutral theory.</li>
+</ul></li>
+<li><a href="./gil/gil2e.pdf">Chapter 2, Part 5</a>
+<ul>
+<li>Section 2.6.</li>
+<li>The coalescent.</li>
+</ul></li>
+<li><a href="./gil/gil2f.pdf">Chapter 2, Part 6</a>
+<ul>
+<li>Sections 2.7 and 2.8.</li>
+<li>Effective population size and generalizability of
+Wright-Fisher.</li>
+</ul></li>
+<li><a href="./gil/gil5.pdf">Chapter 5</a>
+<ul>
+<li>Sections 5.1, 5.2, and 5.5.</li>
+<li>Inbreeding and subdivision.</li>
+</ul></li>
+</ul></li>
+<li><a href="./li_stephens_2003/li_stephens_2003.pdf"><span
+class="citation">N. Li and Stephens (2003)</span></a></li>
 </ul>
 </div>
 <div id="acknowledgments" class="section level2">
@@ -343,6 +425,11 @@ National Science Foundation.</p>
 <div id="references" class="section level2 unnumbered">
 <h2 class="unnumbered">References</h2>
 <div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-bishop2006pattern" class="csl-entry">
+Bishop, Christopher. 2006. <em>Pattern Recognition and Machine
+Learning</em>. Springer. <a
+href="https://www.microsoft.com/en-us/research/publication/pattern-recognition-machine-learning/">https://www.microsoft.com/en-us/research/publication/pattern-recognition-machine-learning/</a>.
+</div>
 <div id="ref-gillespie2004population" class="csl-entry">
 Gillespie, J. H. 2004. <em>Population Genetics: A Concise Guide</em>.
 Population Genetics. Johns Hopkins University Press. <a
