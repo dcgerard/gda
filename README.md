@@ -30,7 +30,8 @@ Topics include
 -   A discussion of N. Li and Stephens (2003).
 
 I am placing these lecture notes under a CC BY-NC 4.0 licence, so you
-can use them as long as you provide attribution.
+can use them for non-commercial purposes as long as you provide
+attribution.
 
 ## Acknowledgments
 
